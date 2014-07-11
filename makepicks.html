@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>NCAA Bowl Pool Pick Page</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles/ncaa_style1.css" type="text/css" />
+	</head>
+
+	<body>
+		<section>
+			<h3>Make Your Picks</h3>
+			<p>Select the winner, against the - (ATS), for each bowl game. Every game is listed, and a selection must be made for each game.</p>
+			<p>The system is web-based now, but the layout should look very familiar; I didn't stray far from the original pick sheet we used for 
+				 years and I'm keeping it as simple as possible for now.</p>
+			<p>Once you've made all of your picks, click Submit at the bottom of the pick sheet.</p>
+			<p>Additionally, I'm trying to figure out a way to include the playoff. I have a few <a href="playoffchallenge.html">ideas and thoughts</a>.</p>
+		</section>
+		<form action="" method="" name="entry_form">
+			<fieldset>
+				<!-- 
+				<legend></legend>
+				-->
+				<table>
+					<caption>2014 Bowl Games</caption>
+					<thead>
+						<tr>
+							<th>Game</th>
+							<th>Date</th>
+							<th>Location</th>
+							<th>Time</th>
+							<th>Network</th>
+							<th>Favorite</th>
+							<th>Underdog</th>
+							<th>-</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Russell Athletic</td>
+							<td>TBA</td>
+							<td>Orlando, FL</td>
+							<td>TBA</td>
+							<td>TBA</td>
+							<td><input type="radio" name="russell_athletic" id="" value="" />ACC team</td> <!-- id and value should same and be unique name for each team -->
+							<td><input type="radio" name="russell_athletic" id="" value="" />Big 12 team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>R+L Carriers New Orleans</td>
+							<td>December 20, 2014</td>
+							<td>New Orleans, LA</td>
+							<td>11:00 AM</td>
+							<td>TBA</td>
+							<td><input type="radio" name="rl_carriers" id="" value="" />C-USA team</td>
+							<td><input type="radio" name="rl_carriers" id="" value="" />Sun Belt team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Gildan New Mexico</td>
+							<td>December 20, 2014</td>
+							<td>Albuquerque, NM</td>
+							<td>2:20 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="gildan_new_mexico" id="" value="" />C-USA tea,m</td>
+							<td><input type="radio" name="gildan_new_mexico" id="" value="" />MWC team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Royal Purple Las Vegas</td>
+							<td>December 20, 2014</td>
+							<td>Las Vegas, NV</td>
+							<td>3:30 PM</td>
+							<td>ABC</td>
+							<td><input type="radio" name="royal_purple" id="" value="" />MWC#1</td>
+							<td><input type="radio" name="royal_purple" id="" value="" />Pac-12#6</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Famous Idaho Potato</td>
+							<td>December 20, 2014</td>
+							<td>Boise, ID</td>
+							<td>5:45 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="idaho_potato" id="" value="" />MAC team</td>
+							<td><input type="radio" name="idaho_potato" id="" value="" />MWC team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Raycom Media Camellia</td>
+							<td>December 20, 2014</td>
+							<td>Montgomery, AL</td>
+							<td>9:15 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="raycom_media" id="" value="" />MAC#4</td>
+							<td><input type="radio" name="raycom_media" id="" value="" />Sun Belt#3</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Miami Beach</td>
+							<td>December 23, 2014</td>
+							<td>Miami, FL</td>
+							<td>TBA</td>
+							<td>TBA</td>
+							<td><input type="radio" name="miami_beach" id="" value="" />BYU</td>
+							<td><input type="radio" name="miami_beach" id="" value="" />The American</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Boca Raton</td>
+							<td>December 23, 2014</td>
+							<td>Boca Raton, FL</td>
+							<td>6:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="boca_raton" id="" value="" />C-USA team</td>
+							<td><input type="radio" name="boca_raton" id="" value="" />MAC team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>S.D. County Credit Union Poinsettia</td>
+							<td>December 23, 2014</td>
+							<td>San Diego</td>
+							<td>9:30 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="poinsettia" id="" value="" />MWC team</td>
+							<td><input type="radio" name="poinsettia" id="" value="" />Navy</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Bahamas Bowl</td>
+							<td>December 24, 2014</td>
+							<td>Nassau, Bahamas</td>
+							<td>12:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="bahamas" id="" value="" />C-USA team</td>
+							<td><input type="radio" name="bahamas" id="" value="" />MAC team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Sheraton Hawaii</td>
+							<td>December 24, 2014</td>
+							<td>Honolulu, HI</td>
+							<td>8:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="sheraton_hawaii" id="" value="" />C-USA team</td>
+							<td><input type="radio" name="sheraton_hawaii" id="" value="" />MWC team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Heart of Dallas</td>
+							<td>December 26, 2014</td>
+							<td>Dallas, TX</td>
+							<td>1:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="heart_of_dallas" id="" value="" />Big Ten team</td>
+							<td><input type="radio" name="heart_of_dallas" id="" value="" />C_USA team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Bitcoin St. Petersburg</td>
+							<td>St. Petersburg, FL</td>
+							<td>December 26, 2014</td>
+							<td>8:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="bitcoin_st_pete" id="" value="" />ACC team</td>
+							<td><input type="radio" name="bitcoin_st_pete" id="" value="" />The American team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Military Bowl</td>
+							<td>December 27, 2014</td>
+							<td>Annapolis, MD</td>
+							<td>1:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="military_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="military_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Hyundai Sun Bowl</td>
+							<td>December 27, 2014</td>
+							<td>El Paso, TX</td>
+							<td>2:00 PM</td>
+							<td>CBS</td>
+							<td><input type="radio" name="hyundai_sun" id="" value="" />Fav team</td>
+							<td><input type="radio" name="hyundai_sun" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Duck Commander Independence Bowl</td>
+							<td>December 27, 2014</td>
+							<td>Shreveport, LA</td>
+							<td>4:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="duck_commander" id="" value="" />Fav team</td>
+							<td><input type="radio" name="duck_commander" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>New Era Pinstripe Bowl</td>
+							<td>December 27, 2014</td>
+							<td>Bronx, NY</td>
+							<td>TBA</td>
+							<td>TBA</td>
+							<td><input type="radio" name="pinstripe" id="" value="" />Fav team</td>
+							<td><input type="radio" name="pinstripe" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>National University Holiday Bowl</td>
+							<td>December 27, 2014</td>
+							<td>San Diego, CA</td>
+							<td>8:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="holiday" id="" value="" />Fav team</td>
+							<td><input type="radio" name="holiday" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>AutoZone Liberty Bowl</td>
+							<td>December 29, 2014</td>
+							<td>Memphis, TN</td>
+							<td>2:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="liberty" id="" value="" />Fav team</td>
+							<td><input type="radio" name="liberty" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>AdvoCare Texas Bowl</td>
+							<td>December 29, 2014</td>
+							<td>Houston, TX</td>
+							<td>9:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="advocare_texas" id="" value="" />Fav team</td>
+							<td><input type="radio" name="advocare_texas" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Detroit Bowl</td>
+							<td>December 30, 2014</td>
+							<td>Detroit, MI</td>
+							<td>TBA</td>
+							<td>TBA</td>
+							<td><input type="radio" name="detroit_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="detroit_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Franklin Amer. Mort. Music City Bowl</td>
+							<td>December 30, 2014</td>
+							<td>Nashville, TN</td>
+							<td>3:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="music_city" id="" value="" />Fav team</td>
+							<td><input type="radio" name="music_city" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Belk Bowl</td>
+							<td>December 30, 2014</td>
+							<td>Charlotte, NC</td>
+							<td>6:45 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="belk_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="belk_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>San Francisco Bowl</td>
+							<td>December 30, 2014</td>
+							<td>Santa Clara, CA</td>
+							<td>10:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="san_fran_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="san_fran_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Chick-fil-A Peach Bowl</td>
+							<td>December 31, 2014</td>
+							<td>Atlanta, GA</td>
+							<td>TBA</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="peach_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="peach_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Fiesta Bowl</td>
+							<td>December 31, 2014</td>
+							<td>Glendale, AZ</td>
+							<td>5:00 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="fiesta_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="fiesta_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Discover Orange Bowl</td>
+							<td>December 31, 2014</td>
+							<td>Miami Gardens, FL</td>
+							<td>8:30 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="orange_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="orange_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Capital One Bowl</td>
+							<td>Thu., Jan. 1</td>
+							<td>Orlando, FL</td>
+							<td>1:00 PM.</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="capital_one" id="" value="" />Fav team</td>
+							<td><input type="radio" name="capital_one" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Outback Bowl</td>
+							<td>Thu., Jan. 1</td>
+							<td>Tampa, FL</td>
+							<td>1:00 PM.</td>
+							<td>ESPN2</td>
+							<td><input type="radio" name="outback" id="" value="" />Fav team</td>
+							<td><input type="radio" name="outback" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>AT&#38;T Cotton Bowl Classic</td>
+							<td>Thu., Jan. 1</td>
+							<td>Arlington, TX</td>
+							<td>1:00 PM. ET</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="cotton" id="" value="" />Fav team</td>
+							<td><input type="radio" name="cotton" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Rose Bowl Game</td>
+							<td>Thu., Jan. 1</td>
+							<td>Pasadena, CA</td>
+							<td>5:00 PM.</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="rose_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="rose_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Allstate Sugar Bowl</td>
+							<td>Thu., Jan. 1</td>
+							<td>New Orleans, LA</td>
+							<td>8:30 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="sugar_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="sugar_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Lockheed Martin Armed Forces Bowl</td>
+							<td>Fri., Jan. 2</td>
+							<td>Fort Worth, TX</td>
+							<td>Noon</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="armed_forces" id="" value="" />Fav team</td>
+							<td><input type="radio" name="armed_forces" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>TaxSlayer Bowl</td>
+							<td>Fri., Jan. 2</td>
+							<td>Jacksonville, FL</td>
+							<td>TBA</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="taxslayer" id="" value="" />Fav team</td>
+							<td><input type="radio" name="taxslayer" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Valero Alamo Bowl</td>
+							<td>Fri., Jan. 2</td>
+							<td>San Antonio, TX</td>
+							<td>6:45 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="alamo" id="" value="" />Fav team</td>
+							<td><input type="radio" name="alamo" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>Valley of the Sun Bowl</td>
+							<td>Fri., Jan. 2</td>
+							<td>Tempe, AZ</td>
+							<td>10:15 PM</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="sun_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="sun_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>	
+						<tr>
+							<td>Birmingham Bowl</td>
+							<td>Sat., Jan. 3</td>
+							<td>Birmingham, AL</td>
+							<td>1:00 PM</td>
+							<td>ESPN/2</td>
+							<td><input type="radio" name="birmingham_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="birmingham_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>	
+						<tr>
+							<td>GoDaddy Bowl</td>
+							<td>Sun., Jan. 4</td>
+							<td>Mobile, AL</td>
+							<td>9:00 PM.</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="godaddy_bowl" id="" value="" />Fav team</td>
+							<td><input type="radio" name="godaddy_bowl" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>	
+						<tr>
+							<td>College Football Championship Game</td>
+							<td>Mon., Jan. 12</td>
+							<td>Arlington, TX</td>
+							<td>8:30 PM.</td>
+							<td>ESPN</td>
+							<td><input type="radio" name="championship" id="" value="" />Fav team</td>
+							<td><input type="radio" name="championship" id="" value="" />Underdog team</td>
+							<td>-</td>
+						</tr>	
+						<tr id="player_info">
+							<td>First Name:<input type="text" name="first_name" /></td>
+							<td colspan="2">Last Name:<input type="text" name="last_name" size="30" /></td>
+							<td colspan="3">Email:<input type="email" name="email" size="40" /></td>
+						</tr>	
+					</tbody>
+				</table>
+			</fieldset>
+
+			<tr>
+				<div id="submit_button">
+					<input type="submit" value="Submit Your Picks!" class="submit" />
+				</div> <!-- end "submit_button" div -->
+			</tr>
+		</form>
+	</body>
+
+</html>
