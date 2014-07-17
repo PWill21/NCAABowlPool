@@ -6,8 +6,10 @@ $(document).ready(function() {
 /****************Functions*****************************************/
 
 function changeColor() {
-	$(".date").mouseover(function() {
-		$(this).css("background-color", "#DCF2F1")
+	$("tr").hover(function(){
+  		$(this).css("background-color","#CBF2ED");
+  	},function(){
+  		$(this).css("background-color","#fff");
 	});
 }
 
