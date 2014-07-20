@@ -84,6 +84,7 @@ table {
 	text-align: center;
 	margin: auto;
 	padding: 10px 5px;
+	background-color: #F2F9FC;
 }
 thead {
 	font-size: 1.1em;
@@ -100,10 +101,10 @@ td {
 	border: 1px black solid;
 }
 .empty_td {
-	background-color: white;
+	background-color: #F2F9FC;
 }
 .empty_td, .no_border {
-	background-color: white;
+	background-color: #F2F9FC;
 	height: 30px;
 	border: none;
 }
@@ -118,7 +119,7 @@ button {
 	font-weight: 700;
 }
 .submit {
-	background-color: #A9F2B0;
+	background-color: #ABDAEA;
 	margin-top: 15px;
 	text-align: center;
 	height: 50px;
