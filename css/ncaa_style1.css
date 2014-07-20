@@ -99,6 +99,12 @@ td {
 	padding: 5px 15px;
 	border: 1px black solid;
 }
+.empty_td {
+	background-color: white;
+}
+.empty_td, .no_border {
+	border: none;
+}
 #player_info td {
 	border: none;
 	font-weight: 700;
