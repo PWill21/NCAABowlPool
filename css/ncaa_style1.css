@@ -103,7 +103,15 @@ td {
 	background-color: white;
 }
 .empty_td, .no_border {
+	background-color: white;
+	height: 30px;
 	border: none;
+}
+button {
+	height: 28px;
+}
+.pick_button {
+	background-color: #ABDAEA;
 }
 #player_info td {
 	border: none;

@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 function changeRowColor() {
 	$("tr").hover(function(){
-  		$(this).css("background-color","#CBF2ED");
+  		$(this).css("background-color","#4DB9DD");
   	},function(){
   		$(this).css("background-color","#fff");
 	});
@@ -18,7 +18,7 @@ function changeButtonColor() {
 	$("button").hover(function(){
 		$(this).css("background-color","#4DB9DD");
 		},function(){
-			$(this).css("background-color","#fff");
+			$(this).css("background-color","#ABDAEA");
 	});
 }
 /*
