@@ -100,6 +100,7 @@ caption {
 td {
 	padding: 5px 15px;
 	border: 1px black solid;
+	border-radius: 4px;
 }
 .empty_td {
 	background-color: #F2F9FC;
