@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 function changeRowColor() {
 	$("tr").hover(function(){
-  		$(this).css("background-color","#4DB9DD");
+  		$(this).css("background-color","#ABDAEA");
   	},function(){
   		$(this).css("background-color","#F2F9FC");
 	});
