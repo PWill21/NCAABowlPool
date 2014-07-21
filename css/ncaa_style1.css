@@ -108,6 +108,9 @@ td {
 	height: 30px;
 	border: none;
 }
+input {
+	background-color: #679E3A;
+}
 button {
 	height: 28px;
 }
