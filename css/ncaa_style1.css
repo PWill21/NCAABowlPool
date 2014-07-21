@@ -120,6 +120,8 @@ input[type="text"], input[type="email"] {
 	height: 25px;
 	margin-left: 5px;
 	border-radius: 10px;
+	color: #0E6187;
+	font-weight: 600;
 }
 button {
 	height: 28px;
