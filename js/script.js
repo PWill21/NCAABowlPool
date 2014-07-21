@@ -8,7 +8,7 @@ $(document).ready(function() {
 /****************Functions*****************************************/
 
 function changeRowColor() {
-	$("tr").hover(function(){
+	$(".game_info").hover(function(){
   		$(this).css("background-color","#ABDAEA");
   	},function(){
   		$(this).css("background-color","#F2F9FC");
