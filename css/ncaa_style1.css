@@ -108,7 +108,13 @@ td {
 	height: 30px;
 	border: none;
 }
+input {
 
+}
+input[type="text"], input[type="email"] {
+	background-color: #DBDBDB;
+	height: 25px;
+}
 button {
 	height: 28px;
 }
