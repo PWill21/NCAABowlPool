@@ -9,7 +9,7 @@ $(document).ready(function() {
 /****************Functions*****************************************/
 
 function changeRowColor() {
-	$(".game_info").hover(function(){
+	$(".game_row").hover(function(){
   		$(this).css("background-color","#ABDAEA");
   	},function(){
   		$(this).css("background-color","#F2F9FC");
