@@ -2,7 +2,8 @@ $(document).ready(function() {
 	// change background color when mouse hovers over team names
 	changeRowColor();
 	changeButtonColor();
-	fadeInOnHover();
+	//fadeInOnHover();
+	//changePickBackground();
 });
 
 /****************Functions*****************************************/
@@ -22,6 +23,16 @@ function changeButtonColor() {
 			$(this).css("background-color","#ABDAEA");
 	});
 }
+
+/*
+function changePickBackground() {   // currently this function works, but if user changes mind and picks other team, both cells are highlighted
+	$(document).ready(function() {
+		$("input[type='radio']").click(function(){		// when radio button is clicked
+			$(this).parent().css("background-color", "#963737")    // use css to change background color of parent <td> elemet
+		});
+	});
+}
+*/
 /*
 function fadeInOnHover() {
 	$("radio").hover(function() {
