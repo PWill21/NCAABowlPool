@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+/**********************End Reset**************************/
 
 
 
@@ -54,6 +55,20 @@ table {
 body {
 	width: 1300px;
 	margin: 20px auto;
+}
+a {
+	text-decoration: none;
+	color: #4DB9DD;
+}
+nav {
+	text-align: center;
+	margin: 20px 0 15px 0;
+}
+nav li {
+	font-family: 'Rock Salt', cursive;
+	font-size: 1.3em;
+	font-weight: 300;
+	display: inline-block;
 }
 section {
 	width: 1000px;
