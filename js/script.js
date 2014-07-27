@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 function changeRowColor() {
 	$(".game_row").hover(function(){
-  		$(this).css("background-color","#ABDAEA");
+  		$(this).css("background-color","#9DE0A1");
   	},function(){
   		$(this).css("background-color","#F2F9FC");
 	});
@@ -18,7 +18,7 @@ function changeRowColor() {
 
 function changeButtonColor() {
 	$("button").hover(function(){
-		$(this).css("background-color","#4DB9DD");
+		$(this).css("background-color","#0F7A18");
 		},function(){
 			$(this).css("background-color","#ABDAEA");
 	});

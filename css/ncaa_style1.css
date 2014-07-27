@@ -153,7 +153,7 @@ button {
 	height: 28px;
 }
 .pick_button {
-	background-color: #ABDAEA;
+	background-color: #9DE0A1;
 	border-radius: 10px;
 }
 #player_info td {
@@ -161,7 +161,7 @@ button {
 	font-weight: 700;
 }
 .submit {
-	background-color: #ABDAEA;
+	background-color: #9DE0A1;
 	margin-top: 15px;
 	text-align: center;
 	height: 50px;
