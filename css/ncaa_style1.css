@@ -76,6 +76,7 @@ nav li {
 }
 
 section {
+	font-size: 1em;
 	width: 1000px;
 	margin: 20px auto;
 }
