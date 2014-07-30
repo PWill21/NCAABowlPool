@@ -132,6 +132,9 @@ td {
 	height: 30px;
 	border: none;
 }
+.team_cell {
+	width: 145px;
+}
 .line {
 	font-family: 'Gloria Hallelujah', cursive;	font-size: 1.3em; font-weight: 500;
 	width: 30px;
