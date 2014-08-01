@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**********************End Reset**************************/
+
+
+
+
+body {
+	background-color: black;
+	color: #fff;
+	width: 1300px;
+	margin: 20px auto;
+}
+a {
+	text-decoration: none;
+	color: #0F7A18;
+}
+li a {
+	color: #0F7A18;
+}
+nav {
+	text-align: center;
+	margin: 20px 0 15px 0;
+}
+nav li {
+	font-family: 'Rock Salt', cursive;
+	font-size: 1.4em;
+	font-weight: 300;
+	display: inline-block;
+}
+
+section {
+	font-size: 1em;
+	width: 1000px;
+	margin: 20px auto;
+}
+
+h1 { 
+	font-size: 2.5em;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.5em;
+}
+p {
+	text-align: left;
+	line-height: 1.3em;
+	padding: 5px 0;
+}
+h1 {
+	text-align: left;
+}
+table {
+	box-shadow: inset 0 0 10px #B6ACE0;
+	border-collapse: separate; /* used for cell-spacing between data cells in the table */
+	border-spacing: 3px;
+	text-align: center;
+	margin: auto;
+	padding: 10px 5px;
+	background-color: #F2F9FC;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+thead {
+	font-size: 1.1em;
+	font-weight: 700;
+
+}
+caption {
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+
+td {
+	padding: 5px 12px;
+	border: 1px black solid;
+	border-radius: 4px;
+}
+.empty_td {
+	background-color: #F2F9FC;
+}
+.empty_td, .no_border {
+	background-color: #F2F9FC;
+	height: 30px;
+	border: none;
+}
+.team_cell {
+	width: 145px;
+}
+.line {
+	font-family: 'Gloria Hallelujah', cursive;	font-size: 1.3em; font-weight: 500;
+	width: 30px;
+}
+input:focus {
+	outline: 0; /* does not display border around input fields when clicked on */
+}
+input[type="text"], input[type="email"] {
+	background-color: #DBDBDB;
+	padding-left: 5px; /*so that the text entered is not right up against the left edge of text box */
+	font-size: 14px;
+	height: 25px;
+	margin-left: 5px;
+	border-radius: 10px;
+	color: #0E6187;
+	font-weight: 600;
+}
+button {
+	outline: 0; /* no boreder when buttons are clicked */
+	height: 28px;
+}
+.pick_button {
+	background-color: #9DE0A1;
+	border-radius: 10px;
+}
+#player_info td {
+	border: none;
+	font-weight: 700;
+}
+.submit {
+	background-color: #9DE0A1;
+	margin-top: 15px;
+	text-align: center;
+	height: 50px;
+	width: 250px;
+	font-size: 1.7em;
+}
+
+#submit_button {
+	text-align: center;
+}
+input[type="submit"] {
+	border-radius: 15px;
+}
+ul {
+	margin: 10px 0;
+	list-style-type: circle;
+}
+li {
+	line-height: 1.3em;
+	margin-left: 30px;
+	padding-left: 7px;
+}
+
+/******************FONTS***********************/
+/*
+font-family: 'Schoolbell', cursive;
+font-family: 'Gloria Hallelujah', cursive;	font-size: 1.3em; font-weight: 500;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Rock Salt', cursive;
+*/
