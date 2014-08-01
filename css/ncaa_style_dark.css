@@ -146,7 +146,7 @@ input:focus {
 	outline: 0; /* does not display border around input fields when clicked on */
 }
 input[type="text"], input[type="email"] {
-	background-color: #DBDBDB;
+	background-color: #C7E5ED;
 	padding-left: 5px; /*so that the text entered is not right up against the left edge of text box */
 	font-size: 14px;
 	height: 25px;
@@ -160,7 +160,7 @@ button {
 	height: 28px;
 }
 .pick_button {
-	background-color: #9DE0A1;
+	background-color: #ABDAEA;
 	border-radius: 10px;
 }
 #player_info td {
@@ -168,7 +168,7 @@ button {
 	font-weight: 700;
 }
 .submit {
-	background-color: #9DE0A1;
+	background-color: #06ABD8;
 	margin-top: 15px;
 	text-align: center;
 	height: 50px;
@@ -203,5 +203,9 @@ font-family: 'Rock Salt', cursive;
 
 /*****************COLORS***********************/
 /*
-links - #06ABD8
+links, hover over picks button - #06ABD8
+table background - #F2F9FC
+hover over row - #F2F9FC
+submit button - ##06ABD8
+text-field background - #C7E5ED
 */

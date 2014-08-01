@@ -10,17 +10,17 @@ $(document).ready(function() {
 
 function changeRowColor() {
 	$(".game_row").hover(function(){
-  		$(this).css("background-color","#9DE0A1");
+  		$(this).css("background-color","#ABDAEA"); // color when hovered over row
   	},function(){
-  		$(this).css("background-color","#F2F9FC");
+  		$(this).css("background-color","#F2F9FC"); // normal background color; matches table{background-color}
 	});
 }
 
 function changeButtonColor() {
 	$("button").hover(function(){
-		$(this).css("background-color","#0F7A18");
+		$(this).css("background-color","#06ABD8"); // color when hovered over button; matches color of submit button
 		},function(){
-			$(this).css("background-color","#ABDAEA");
+			$(this).css("background-color","#ABDAEA"); // normal background color of button
 	});
 }
 
